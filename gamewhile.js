@@ -28,7 +28,7 @@ while (guess !== target) {
     }
 }
 
-let playPartTwo = prompt("Wanna try Part Twon (with only 5 chances)? Type Yes or No:");
+let playPartTwo = prompt("Wanna try Part Two (with only 5 chances)? Type Yes or No:");
 
 if(playPartTwo && playPartTwo.toLowerCase() === "yes"){
     let target = Math.floor(Math.random()*20)+1;
