@@ -56,7 +56,7 @@ for (let i=1; i<=maxAttempts; i++){
     break;
     }
     if(i === maxAttempts){
-        alert(`❌ Oops! You've run out of guesses. The number was ${target}.`)
+        alert(`🎉 Correct! You guessed the number in ${i} attempt(s)!`);
     }
 }
 }
