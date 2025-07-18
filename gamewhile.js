@@ -52,7 +52,7 @@ for (let i=1; i<=maxAttempts; i++){
         alert(`Too high! You have ${maxAttempts-i} guesses left.`)
     }
     else{
-        alert(`🎉 Correct! You guessed the number in ${attempts} attempts.`);
+        alert(`🎉 Correct! You guessed the number in ${i} attempt(s)!`);
     break;
     }
     if(i === maxAttempts){
